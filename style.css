@@ -1,0 +1,141 @@
+/* pricing css */
+
+.graybg{
+    background: rgb(248, 244, 244);
+}
+p.header_tex {
+    width: 650px;
+    margin: auto;
+}
+.pricing_section .pricing_section_heade{
+    position: relative; 
+
+ }
+.pricing_section .pricing_section_heade h4{ }
+.pricing_section .pricing_section_heade h1{ 
+    
+}
+.pricing_section_heade p{
+    display: inline-block;
+    font-size: 12px;
+    width: 550px;
+ }
+}
+.pricing_section .pricing_section_heade h1::after{
+    content: "";
+    display: block;
+    position: absolute;
+}
+/* card section */
+.pricing_section .pricing_card{ 
+    text-align: center;
+    background: #fff;
+    margin: 5px;
+    padding: 40px 0px;
+    z-index: -1;
+
+}
+
+.per_text{
+    color: #fff;
+}
+/* card hover  */
+
+.pricing_card:hover{
+    background: #5178ee;
+    transition: .5s;
+    color: #fff;
+    z-index: 1;
+}
+.pricing_card:hover .dd_btn{
+    color: #5178ee;
+    background: #fff;
+   
+}
+/* .pricing_card:hover .dd_btn:hover{
+    color: #5178ee;
+    background: #fff;
+   
+}  */
+
+
+.pricing_card .dd_btn::after{
+content: "";
+
+    z-index: 1;
+}
+.pricing_card.dd_btn:hover{
+    background: #5178ee;
+    color: #fff;
+}
+
+
+
+
+
+.pricing_section .pricing_card h4{}
+.pricing_section .pricing_card h1{
+    
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.bb
+{ border-top:  1px solid  rgba(17, 6, 6, 0.067);
+    
+    
+}
+button{
+    border-radius: 100px !important;
+    
+}
+
+/* slider css  */
+.slider_section{
+    background:url(./free-bg.jpg) no-repeat top center;
+    background-position:cover;
+    padding: 270px;
+    color: #ffff;
+    position: relative;
+    z-index: 1;
+}
+.slider_section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(62, 109, 252,.8);
+    z-index: -1;
+    
+}
+    /* email css */
+    .email_section{
+
+    }
+    .email_section_left{
+        background:#5178ee;
+        color: #fff;
+        padding: 0px 20px;
+
+    }
+    .email_section_right{
+        background: #fff;
+        font-size: 10px;
+        padding: 0px 20px;
+    }
+
+.email_section_lef  button, input {
+            overflow: visible;
+            border-radius: 100px;
+            border: 1px solid #fff;
+            
+        }
+    .email_section_right h3{
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+   /*  b tn */
+
+   
